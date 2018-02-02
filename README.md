@@ -1,16 +1,16 @@
-# worker.js
+# webworker.js
 用更简单的方式来创建 `Worker`
 
 ## Install 安装
 
-`npm install worker.js`
+`npm install webworker.js`
 
-`yarn add worker.js`
+`yarn add webworker.js`
 
 ## Usage 使用方法
 
 ```js
-import worker from "worker-js";
+import worker from "webworker.js";
 
 let sleepEcho = worker((username)=>{
   let start = Date.now();
