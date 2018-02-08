@@ -1,5 +1,5 @@
 /**
- * worker-js
+ * webworker.js
  *
  * 用更简单的方式来创建 `Worker`
  */
@@ -16,9 +16,7 @@ onmessage=(
     };
   }
 )(${func})`;
-  var url = URL.createObjectURL(
-    new Blob([blobContent])
-  );
+  var url = URL.createObjectURL(new Blob([blobContent]));
   return function() {
     var args = Array.prototype.slice.call(arguments);
     return new Promise(function(resolve, reject) {

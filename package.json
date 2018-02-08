@@ -21,5 +21,13 @@
     "eslint": "^3.3.0",
     "express": "^4.14.0",
     "rimraf": "^2.5.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lomocc/webworker.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lomocc/webworker.js/issues"
+  },
+  "homepage": "https://github.com/lomocc/webworker.js#readme"
 }
